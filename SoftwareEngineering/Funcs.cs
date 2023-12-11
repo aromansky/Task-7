@@ -23,7 +23,7 @@
             else Console.WriteLine();
         }
     }
-    public class RecurHTask
+    public class Funcs
     {
         /// <summary>
         /// Сумма всех вещественных чисел A, A + h, A + 2h , … в диапазоне [A, B], удовлетворяющих заданному предикату.
@@ -35,13 +35,17 @@
         /// <returns></returns>
         public static double SumAH(double a, double b, double h, Predicate<double> pred)
         {
-            if (a > b) (a, b) = (b, a);
+            if (a > b) 
+                (a, b) = (b, a);
+
+            if (h == 0)
+                throw new ArgumentException();
 
             double Sum(int n = 0)
             {
-                if ((a + n * h) > b) return 0;
                 var s = a + n * h;
-
+                if (s > b) return 0;
+        
                 return pred(s) ? s + Sum(++n) : Sum(++n);
             }
 
@@ -95,7 +99,7 @@
         /// <returns>Максимальный элемент.</returns>
         public static int MaxElem(int[] arr)
         {
-            if (arr == null) return int.MinValue;
+            if (arr == null || arr.Count() == 0) return int.MinValue;
 
             int FindMax(int n)
             {
@@ -194,16 +198,15 @@
         public static LinkedList<int> FibList(int n)
         {
             if (n < 0)
-                throw new ArithmeticException("Нельзя посчитать отрицательное количесвто чисел Фибоначчи.");
+                throw new ArgumentException("Нельзя посчитать отрицательное количесвто чисел Фибоначчи.");
             if (n == 0) return null;
-            if (n == 1) return MyFuncs.CreateDList(1);
 
             var res = MyFuncs.CreateDList(0);
 
             void BuildList(LinkedList<int> lst, int n, int a = 0, int b = 1)
             {
                 if (n == 1) return;
-                lst.AddLast(a + b);
+                lst.AddLast(b);
 
                 BuildList(lst, --n, b, a + b);
             }
