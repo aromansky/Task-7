@@ -7,7 +7,7 @@ namespace SoftwareEngineering
     {
         static void Main()
         {
-            //PrintDList(FibList(10).First);
+            PrintDList(FibList(10).First);
         }
     }
 }
