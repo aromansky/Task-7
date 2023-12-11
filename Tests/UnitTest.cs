@@ -192,7 +192,7 @@ namespace Tests
         [Test]
         public void TestSimple()
         {
-            Assert.That(FibList(1), Is.EqualTo(CreateDList(0)));
+            Assert.That(FibList(1), Is.EqualTo(CreateDList(1)));
             Assert.That(FibList(2), Is.EqualTo(CreateDList(0, 1)));
             Assert.That(FibList(3), Is.EqualTo(CreateDList(0, 1, 1)));
             Assert.That(FibList(4), Is.EqualTo(CreateDList(0, 1, 1, 2)));
