@@ -7,7 +7,7 @@ namespace SoftwareEngineering
     {
         static void Main()
         {
-            Console.Write("Первые 10 чисел последовательности Фибоначчи: ");
+            Console.Write("First 10 numbers in the Fibonacci sequence: ");
             PrintDList(FibList(10).First);
         }
     }
