@@ -7,8 +7,17 @@ namespace SoftwareEngineering
     {
         static void Main()
         {
-            Console.Write("First 10 numbers in the Fibonacci sequence: ");
-            PrintDList(FibList(10).First);
+            try
+            {
+                Console.Write("First 10 numbers in the Fibonacci sequence: ");
+                PrintDList(FibList(-10).First);
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine("Something goes wrong\n");
+                Console.Write("A task has been created in Yandex Tracker\n");
+                TaskController.PostTask(TaskController.httpClient);
+            }
         }
     }
 }

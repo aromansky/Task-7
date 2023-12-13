@@ -12,3 +12,17 @@ D:\Task-7\SoftwareEngineering\obj\Debug\net7.0\refint\SoftwareEngineering.dll
 D:\Task-7\SoftwareEngineering\obj\Debug\net7.0\SoftwareEngineering.pdb
 D:\Task-7\SoftwareEngineering\obj\Debug\net7.0\SoftwareEngineering.genruntimeconfig.cache
 D:\Task-7\SoftwareEngineering\obj\Debug\net7.0\ref\SoftwareEngineering.dll
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\bin\Debug\net7.0\SoftwareEngineering.exe
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\bin\Debug\net7.0\SoftwareEngineering.deps.json
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\bin\Debug\net7.0\SoftwareEngineering.runtimeconfig.json
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\bin\Debug\net7.0\SoftwareEngineering.dll
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\bin\Debug\net7.0\SoftwareEngineering.pdb
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\obj\Debug\net7.0\SoftwareEngineering.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\obj\Debug\net7.0\SoftwareEngineering.AssemblyInfoInputs.cache
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\obj\Debug\net7.0\SoftwareEngineering.AssemblyInfo.cs
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\obj\Debug\net7.0\SoftwareEngineering.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\obj\Debug\net7.0\SoftwareEngineering.dll
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\obj\Debug\net7.0\refint\SoftwareEngineering.dll
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\obj\Debug\net7.0\SoftwareEngineering.pdb
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\obj\Debug\net7.0\SoftwareEngineering.genruntimeconfig.cache
+C:\Users\nikit\Documents\GitHub\Task-7\SoftwareEngineering\obj\Debug\net7.0\ref\SoftwareEngineering.dll
